@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=My+Soul&family=Open+Sans:wght@600&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <!-- <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDOUGTJd4YsWJj_ZwOJnAfqEui3FmV9V0g",
+            authDomain: "smit-project-3f088.firebaseapp.com",
+            projectId: "smit-project-3f088",
+            storageBucket: "smit-project-3f088.appspot.com",
+            messagingSenderId: "925632184063",
+            appId: "1:925632184063:web:ad5d05888c40aa4e4456ca",
+            measurementId: "G-3EWBQV7M6D"
+        };
+        // // Initialize Firebase
+       firebase.initializeApp(firebaseConfig);
+
+    </script> -->
+   
+    <title>Register Page</title>
+</head>
+<body>
+    <div id="loader" style="height: 100vh; width: vh; display: flex; justify-content: center; align-items: center;">
+        <img height="200px" width="200px" src="https://i.gifer.com/origin/d3/d3f472b06590a25cb4372ff289d81711_w200.gif"
+            alt="">
+    </div>
+
+    <div id="content_container">
+        <h2> Welcome To Website </h2>
+        <img src="ubit.jpg" alt="" srcset="" width="340px" height="300px"> 
+        <p><b>UMAER BASHA INSTITUTE OF INFORMATION AND TECHNOLOGY (UBIT).</b> The No# 01 department of Karachi University. This department are producing pure and finest student of computer science which are working on the huge firms and making their department and University along with their parents proud.</p>
+        <br>
+        <button id="logout">logout</button>
+    </div>
+    <div id="RegisterDiv">
+        <h1>REGISTER HERE</h1>
+        <p>IT'S COMPLETELY FREE</p><br>
+        <p>USERNAME</p>
+        <input type="text" name="" id="register_username" placeholder="Username" required>
+        <p>EMAIL ADDRESS</p>
+        <input type="email" name="" id="register_email" placeholder="Email ID" required>
+        <p>PASSWORD</p>
+        <input type="password" name="" id="register_password" placeholder="Password" required><br>
+        <button type="submit" id="Register_submit_btn">Register Now</button><br>
+        <h5>If you're already registered then <button id="loginBtn">Login</button></h5>
+    </div>
+    <!-- <div  id="loader" style="height: 5vh; width: vh; display: flex; justify-content: center; align-items: center;">
+        <img  height="200px" width="200px"  src="https://i.gifer.com/origin/d3/d3f472b06590a25cb4372ff289d81711_w200.gif" alt=""></img>
+    </div> -->
+    <div id="LoginDiv" style="display: none;">
+        <h1>LOGIN HERE</h1><br>
+        <p>EMAIL ADDRESS</p>
+        <input type="email" name="" id="Login_email" placeholder="Email ID">
+        <p>PASSWORD</p>
+        <input type="password" name="" id="Login_password" placeholder="Password"><br>
+        <button type="submit" id="Login_submit_btn">Login Now</button><br>
+        <h5><input type="radio" name="" id="">FORGOT PASSWORD</h5>
+        <h5>If you're not registered then <button id="RegisterBtn">Register</button></h5> 
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>

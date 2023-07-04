@@ -1,0 +1,270 @@
+body{
+    /* background-image: linear-gradient(to right, rgb(255, 4, 4) , rgba(23, 23, 148, 0.713)); */
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    /* background: linear-gradient(to right, #dc2424, #4a569d); */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(3, 0, 0, 0.817);
+}
+#RegisterDiv{
+    height: 540px;
+    width: 380px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 3% auto;
+    border: 3px solid yellowgreen;
+}
+#RegisterDiv:hover{
+    box-shadow: 8px 10px 45px black;
+}
+/* #RegisterDiv>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+} */
+#RegisterDiv>p{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+#register_email,#register_password,#register_username{
+    height: 35px;
+    width: 300px;
+    padding-left: 7px;
+    background-color: transparent;
+    opacity: none;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    border-bottom:3px solid black ;
+    font-weight: 700;
+    font-size: large;
+    /* margin-top: 5px; */
+    
+}
+#Register_submit_btn{
+    margin-top: 20px;
+    height: 35px;
+    width: 130px;
+    border-radius: 15px;
+    padding: 5px;
+    outline:none;
+    font-weight:bolder;
+    background-color: transparent;
+    border-color: blue;
+    cursor: pointer;
+}
+#Register_submit_btn:hover{
+    border-color: darkred;
+}
+#loginBtn{
+    height: 35px;
+    min-width: 80px;
+    border-radius: 15px;
+    padding: 5px;
+    outline:none;
+    font-weight:bolder;
+    background-color: transparent;
+    border-color: blue;
+    cursor: pointer;
+}
+#loginBtn:hover{
+    border-color: darkred;
+}
+
+#LoginDiv{
+    height: 450px;
+    width: 390px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 3% auto;
+    border: 3px solid yellowgreen;
+    display: none;
+}
+#LoginDiv:hover{
+    box-shadow: 8px 10px 45px black;
+}
+/* #RegisterDiv>h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+} */
+#LoginDiv>p{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 17px;
+}
+#Login_email,#Login_password{
+    height: 35px;
+    width: 260px;
+    padding-left: 7px;
+    background-color: transparent;
+    opacity: none;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    border-bottom:3px solid black ;
+    font-weight: 700;
+    font-size: large;
+    /* margin-top: 5px; */
+    
+}
+#Login_submit_btn{
+    margin-top: 20px;
+    height: 35px;
+    width: 130px;
+    border-radius: 15px;
+    padding: 5px;
+    outline:none;
+    font-weight:bolder;
+    background-color: transparent;
+    border-color: blue;
+    cursor: pointer;
+}
+#Login_submit_btn:hover{
+    border-color: darkred;
+}
+#RegisterBtn{
+    height: 35px;
+    min-width: 80px;
+    border-radius: 15px;
+    padding: 5px;
+    outline:none;
+    font-weight:bolder;
+    background-color: transparent;
+    border-color: blue;
+    cursor: pointer;
+}
+#RegisterBtn:hover{
+    border-color: darkred;
+}
+#forgot_password{
+    align-items: flex-start;
+}
+/* #loader{
+    display: none;
+    
+    margin: 100% 43%;
+} */
+#logout{
+    height: 35px;
+    min-width: 80px;
+    border-radius: 15px;
+    padding: 5px;
+    outline:none;
+    font-weight:bolder;
+    background-color: transparent;
+    border-color: blue;
+    cursor: pointer;
+}
+#logout:hover{
+    border-color: darkred;
+}
+#content_container{
+    display: none;
+}
+@media only screen and (max-width: 420px) {
+    body{
+        background-color: rgba(240, 255, 255, 0.763);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(3, 0, 0, 0.817);
+    }
+    #RegisterDiv{
+        height: 580px;
+        width: 250px;
+        align-items: center;
+        text-align: center;
+        padding: 10px 20px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin:6% auto;
+        border: 3px solid yellowgreen;
+        box-shadow: 8px 10px 45px black;
+    }
+    #RegisterDiv>p{
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+   
+    #register_email,#register_password,#register_username{
+        height: 30px;
+        width: 250px;
+        padding-left: 7px;
+        background-color: transparent;
+        opacity: none;
+        outline: none;
+        border: none;
+        color: whitesmoke;
+        border-bottom:2px solid black ;
+        font-weight: 300;
+        font-size: large;
+        /* margin-top: 5px; */
+        
+    }
+    #Register_submit_btn{
+        margin-top: 20px;
+        height: 35px;
+        width: 120px;
+        border-radius: 15px;
+        padding: 5px;
+        outline:none;
+        font-weight:bolder;
+        background-color: transparent;
+        border-color: blue;
+        cursor: pointer;
+    }
+    #Register_submit_btn:hover{
+        border-color: darkred;
+    }
+    #loginBtn{
+        margin-top: 15px;
+        height: 35px;
+        min-width: 70px;
+        border-radius: 15px;
+        padding: 5px;
+        outline:none;
+        font-weight:bolder;
+        background-color: transparent;
+        border-color: blue;
+        cursor: pointer;
+    }
+    #loginBtn:hover{
+        border-color: darkred;
+    }
+    #LoginDiv{
+        height: 430px;
+        width: 280px;
+        align-items: center;
+        text-align: center;
+        padding: 10px 20px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        margin: 30% auto;
+        border: 3px solid yellowgreen;
+        display: none;
+        box-shadow: 8px 10px 45px black;
+    }
+    #Login_email,#Login_password{
+        height: 35px;
+        width: 230px;
+        padding-left: 7px;
+        background-color: transparent;
+        opacity: none;
+        outline: none;
+        border: none;
+        color: whitesmoke;
+        border-bottom:2px solid black ;
+        font-weight: 400;
+        font-size: large;
+        /* margin-top: 5px; */   
+    }
+    #LoginDiv>p{
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+}
+
+
